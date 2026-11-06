@@ -6,7 +6,6 @@ import pandera.errors
 
 from pipeline.schema import RAW_ORDERS
 
-
 WAREHOUSE = "warehouse.duckdb"
 
 
