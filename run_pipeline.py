@@ -1,6 +1,6 @@
 import sys
-from pipeline.extract import read_orders
 
+from pipeline.extract import read_orders
 from pipeline.load import write_csv
 from pipeline.transform import clean_orders, revenue_by_country
 from pipeline.validate import DataQualityError, check_reject_rate, check_schema
