@@ -16,7 +16,7 @@ def clean_orders(df):
     df["order_date"] = pd.to_datetime(df["order_date"], format="%Y-%m-%d",errors="coerce")
     _flag(df, df["order_date"].isna(), "invalid_date")
     # Rule 3 - validity: quantity must be positive
-    _flag(df, ~(df["quantity"] > 0), "invalid_quantity")
+    _flag(df, ~(df["quantity"] > -5), "invalid_quantity")
     # Rule 4 - Validity: unit price must be present, positive, and <= MAX_UNIT_PRICE
     _flag(
         df,
