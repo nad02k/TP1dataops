@@ -9004,3 +9004,1253 @@ having count(*) > 1
 [0m13:50:55.840535 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D91A0338C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D919D9AF90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001D91AEDB5F0>]}
 [0m13:50:55.841209 [debug] [MainThread]: Flushing usage events
 [0m13:50:57.407082 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:57:27.411497 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000296DEB56A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000296DC760B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000296E14EB9D0>]}
+
+
+============================== 14:57:27.429230 | c26a6157-c5ec-4f1d-93c9-8152ba49e602 ==============================
+[0m14:57:27.429230 [info ] [MainThread]: Running with dbt=1.12.6
+[0m14:57:27.430764 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'static_parser': 'True', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'D:\\Projects\\Dataops_lab1', 'use_colors': 'True', 'hints_enabled': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'invocation_command': 'dbt clean', 'log_path': 'D:\\Projects\\Dataops_lab1\\logs'}
+[0m14:57:28.051149 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c26a6157-c5ec-4f1d-93c9-8152ba49e602', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000296E1A742B0>]}
+[0m14:57:28.192065 [debug] [MainThread]: Command `dbt clean` succeeded at 14:57:28.191607 after 1.34 seconds
+[0m14:57:28.193367 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000296E1A9FCE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000296E1B95590>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000296E1B6A450>]}
+[0m14:57:28.194527 [debug] [MainThread]: Flushing usage events
+[0m14:57:33.158105 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:57:43.055208 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021A43B26A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021A41730CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021A464BB9D0>]}
+
+
+============================== 14:57:43.064842 | 2d06dbcb-65f1-49a8-ba8b-35039f50f22a ==============================
+[0m14:57:43.064842 [info ] [MainThread]: Running with dbt=1.12.6
+[0m14:57:43.066270 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'maximum_seed_size_mib': '1', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'D:\\Projects\\Dataops_lab1', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'invocation_command': 'dbt deps', 'log_path': 'D:\\Projects\\Dataops_lab1\\logs'}
+[0m14:57:43.443817 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '2d06dbcb-65f1-49a8-ba8b-35039f50f22a', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021A46A802B0>]}
+[0m14:57:43.537221 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m14:57:43.539284 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m14:57:43.540991 [debug] [MainThread]: Command `dbt deps` succeeded at 14:57:43.540761 after 0.86 seconds
+[0m14:57:43.541660 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021A41ECF680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021A46BA1AE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021A462E6250>]}
+[0m14:57:43.542346 [debug] [MainThread]: Flushing usage events
+[0m14:57:44.989269 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:58:03.567789 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028F5D296A50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028F5AEB0CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028F5FCBB890>]}
+
+
+============================== 14:58:03.578712 | 7d8c9aee-0e9e-4daf-9df5-7dbabff0ffa6 ==============================
+[0m14:58:03.578712 [info ] [MainThread]: Running with dbt=1.12.6
+[0m14:58:03.580251 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'maximum_seed_size_mib': '1', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'D:\\Projects\\Dataops_lab1', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt build', 'hints_enabled': 'True', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'use_colors': 'True', 'log_path': 'D:\\Projects\\Dataops_lab1\\logs'}
+[0m14:58:04.353059 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '7d8c9aee-0e9e-4daf-9df5-7dbabff0ffa6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028F5A1E1940>]}
+[0m14:58:04.676008 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '7d8c9aee-0e9e-4daf-9df5-7dbabff0ffa6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028F603ED040>]}
+[0m14:58:04.686266 [info ] [MainThread]: Registered adapter: duckdb=1.11.0
+[0m14:58:05.504721 [debug] [MainThread]: checksum: 1b8c4c4762408e1122cf8b59cc24fb92e04e9e5fd74c0b48cbc707aba45870ee, vars: {}, profile: shop, target: dev, version: 1.12.6
+[0m14:58:05.507393 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m14:58:05.508704 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '7d8c9aee-0e9e-4daf-9df5-7dbabff0ffa6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028F607B8450>]}
+[0m14:58:09.952881 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '7d8c9aee-0e9e-4daf-9df5-7dbabff0ffa6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028F6255FE30>]}
+[0m14:58:10.231035 [debug] [MainThread]: Wrote artifact WritableManifest to D:\Projects\Dataops_lab1\target\manifest.json
+[0m14:58:10.242071 [debug] [MainThread]: Wrote artifact SemanticManifest to D:\Projects\Dataops_lab1\target\semantic_manifest.json
+[0m14:58:10.350333 [debug] [MainThread]: Wrote artifact OsiDocument to D:\Projects\Dataops_lab1\target\osi_document.json
+[0m14:58:10.542337 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '7d8c9aee-0e9e-4daf-9df5-7dbabff0ffa6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028F625FD010>]}
+[0m14:58:10.543417 [info ] [MainThread]: Found 5 models, 7 data tests, 1 source, 500 macros, 2 unit tests
+[0m14:58:10.552441 [info ] [MainThread]: 
+[0m14:58:10.553978 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m14:58:10.554913 [info ] [MainThread]: 
+[0m14:58:10.556700 [debug] [MainThread]: Acquiring new duckdb connection 'master'
+[0m14:58:10.573446 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_warehouse'
+[0m14:58:10.894699 [debug] [ThreadPool]: Using duckdb connection "list_warehouse"
+[0m14:58:10.895745 [debug] [ThreadPool]: On list_warehouse: /* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "shop", "target_name": "dev", "connection_name": "list_warehouse"} */
+
+    
+    select schema_name
+    from system.information_schema.schemata
+    
+    where lower(catalog_name) = '"warehouse"'
+    
+  
+  
+[0m14:58:10.896600 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:58:11.276766 [debug] [ThreadPool]: SQL status: OK in 0.380 seconds
+[0m14:58:11.280060 [debug] [ThreadPool]: On list_warehouse: Close
+[0m14:58:11.281772 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_warehouse, now create_warehouse_main)
+[0m14:58:11.282822 [debug] [ThreadPool]: Creating schema "database: "warehouse"
+schema: "main"
+"
+[0m14:58:11.302346 [debug] [ThreadPool]: Using duckdb connection "create_warehouse_main"
+[0m14:58:11.303145 [debug] [ThreadPool]: On create_warehouse_main: /* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "shop", "target_name": "dev", "connection_name": "create_warehouse_main"} */
+
+    
+        select type from duckdb_databases()
+        where lower(database_name)='warehouse'
+        and type != 'duckdb'
+    
+  
+[0m14:58:11.303998 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m14:58:11.308394 [debug] [ThreadPool]: SQL status: OK in 0.004 seconds
+[0m14:58:11.310620 [debug] [ThreadPool]: Using duckdb connection "create_warehouse_main"
+[0m14:58:11.311272 [debug] [ThreadPool]: On create_warehouse_main: BEGIN
+[0m14:58:11.312620 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m14:58:11.313528 [debug] [ThreadPool]: Using duckdb connection "create_warehouse_main"
+[0m14:58:11.314195 [debug] [ThreadPool]: On create_warehouse_main: /* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "shop", "target_name": "dev", "connection_name": "create_warehouse_main"} */
+
+    
+    
+        create schema if not exists "warehouse"."main"
+    
+[0m14:58:11.316452 [debug] [ThreadPool]: SQL status: OK in 0.002 seconds
+[0m14:58:11.318443 [debug] [ThreadPool]: On create_warehouse_main: COMMIT
+[0m14:58:11.319073 [debug] [ThreadPool]: Using duckdb connection "create_warehouse_main"
+[0m14:58:11.319597 [debug] [ThreadPool]: On create_warehouse_main: COMMIT
+[0m14:58:11.320661 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m14:58:11.321319 [debug] [ThreadPool]: On create_warehouse_main: Close
+[0m14:58:11.325586 [debug] [ThreadPool]: Acquiring new duckdb connection 'list_warehouse_main'
+[0m14:58:11.337335 [debug] [ThreadPool]: Using duckdb connection "list_warehouse_main"
+[0m14:58:11.338093 [debug] [ThreadPool]: On list_warehouse_main: BEGIN
+[0m14:58:11.338692 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m14:58:11.340005 [debug] [ThreadPool]: SQL status: OK in 0.001 seconds
+[0m14:58:11.340658 [debug] [ThreadPool]: Using duckdb connection "list_warehouse_main"
+[0m14:58:11.341234 [debug] [ThreadPool]: On list_warehouse_main: /* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "shop", "target_name": "dev", "connection_name": "list_warehouse_main"} */
+select
+      'warehouse' as database,
+      table_name as name,
+      table_schema as schema,
+      CASE table_type
+        WHEN 'BASE TABLE' THEN 'table'
+        WHEN 'VIEW' THEN 'view'
+        WHEN 'LOCAL TEMPORARY' THEN 'table'
+        END as type
+    from system.information_schema.tables
+    where lower(table_schema) = 'main'
+    and lower(table_catalog) = 'warehouse'
+  
+[0m14:58:11.396610 [debug] [ThreadPool]: SQL status: OK in 0.055 seconds
+[0m14:58:11.399661 [debug] [ThreadPool]: On list_warehouse_main: ROLLBACK
+[0m14:58:11.400998 [debug] [ThreadPool]: On list_warehouse_main: Close
+[0m14:58:11.404880 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '7d8c9aee-0e9e-4daf-9df5-7dbabff0ffa6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028F620576C0>]}
+[0m14:58:11.405737 [debug] [MainThread]: Using duckdb connection "master"
+[0m14:58:11.406322 [debug] [MainThread]: On master: BEGIN
+[0m14:58:11.406810 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:58:11.408044 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m14:58:11.408604 [debug] [MainThread]: On master: COMMIT
+[0m14:58:11.409177 [debug] [MainThread]: Using duckdb connection "master"
+[0m14:58:11.409693 [debug] [MainThread]: On master: COMMIT
+[0m14:58:11.410772 [debug] [MainThread]: SQL status: OK in 0.000 seconds
+[0m14:58:11.411444 [debug] [MainThread]: On master: Close
+[0m14:58:11.424820 [debug] [Thread-1 (]: Began running node model.shop.stg_orders
+[0m14:58:11.425980 [info ] [Thread-1 (]: 1 of 14 START sql view model main.stg_orders ................................... [RUN]
+[0m14:58:11.427456 [debug] [Thread-1 (]: Acquiring new duckdb connection 'model.shop.stg_orders'
+[0m14:58:11.428192 [debug] [Thread-1 (]: Began compiling node model.shop.stg_orders
+[0m14:58:11.443387 [debug] [Thread-1 (]: Writing injected SQL for node "model.shop.stg_orders"
+[0m14:58:11.447267 [debug] [Thread-1 (]: Began executing node model.shop.stg_orders
+[0m14:58:11.534740 [debug] [Thread-1 (]: Writing runtime sql for node "model.shop.stg_orders"
+[0m14:58:11.539734 [debug] [Thread-1 (]: Using duckdb connection "model.shop.stg_orders"
+[0m14:58:11.541127 [debug] [Thread-1 (]: On model.shop.stg_orders: BEGIN
+[0m14:58:11.542254 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m14:58:11.544992 [debug] [Thread-1 (]: SQL status: OK in 0.003 seconds
+[0m14:58:11.546180 [debug] [Thread-1 (]: Using duckdb connection "model.shop.stg_orders"
+[0m14:58:11.547285 [debug] [Thread-1 (]: On model.shop.stg_orders: /* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "shop", "target_name": "dev", "node_id": "model.shop.stg_orders"} */
+
+  
+  create view "warehouse"."main"."stg_orders__dbt_tmp" as (
+    -- Staging: give each column its real type and repair what can be repaired.
+-- No row is removed here.
+select
+    try_cast(src.order_id as integer)                                         as order_id,
+    try_strptime(src.order_date, '%Y-%m-%d')::date                            as order_date,
+    src.customer_id                                                           as customer_id,
+    upper(left(trim(src.country), 1)) || lower(substr(trim(src.country), 2))  as country,
+    src.product                                                               as product,
+    try_cast(src.quantity as integer)                                         as quantity,
+    try_cast(src.unit_price as decimal(10, 2))                                as unit_price,
+    src._row_number                                                           as _row_number,
+    src._loaded_at                                                            as _loaded_at
+from "warehouse"."raw"."orders" as src
+  );
+
+[0m14:58:11.563580 [debug] [Thread-1 (]: SQL status: OK in 0.015 seconds
+[0m14:58:11.581388 [debug] [Thread-1 (]: Using duckdb connection "model.shop.stg_orders"
+[0m14:58:11.583033 [debug] [Thread-1 (]: On model.shop.stg_orders: /* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "shop", "target_name": "dev", "node_id": "model.shop.stg_orders"} */
+alter view "warehouse"."main"."stg_orders" rename to "stg_orders__dbt_backup"
+[0m14:58:11.587854 [debug] [Thread-1 (]: SQL status: OK in 0.003 seconds
+[0m14:58:11.594446 [debug] [Thread-1 (]: Using duckdb connection "model.shop.stg_orders"
+[0m14:58:11.595758 [debug] [Thread-1 (]: On model.shop.stg_orders: /* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "shop", "target_name": "dev", "node_id": "model.shop.stg_orders"} */
+alter view "warehouse"."main"."stg_orders__dbt_tmp" rename to "stg_orders"
+[0m14:58:11.598261 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m14:58:11.644238 [debug] [Thread-1 (]: On model.shop.stg_orders: COMMIT
+[0m14:58:11.645559 [debug] [Thread-1 (]: Using duckdb connection "model.shop.stg_orders"
+[0m14:58:11.646647 [debug] [Thread-1 (]: On model.shop.stg_orders: COMMIT
+[0m14:58:11.655725 [debug] [Thread-1 (]: SQL status: OK in 0.008 seconds
+[0m14:58:11.671278 [debug] [Thread-1 (]: Using duckdb connection "model.shop.stg_orders"
+[0m14:58:11.673166 [debug] [Thread-1 (]: On model.shop.stg_orders: /* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "shop", "target_name": "dev", "node_id": "model.shop.stg_orders"} */
+
+      drop view if exists "warehouse"."main"."stg_orders__dbt_backup" cascade
+    
+[0m14:58:11.677799 [debug] [Thread-1 (]: SQL status: OK in 0.003 seconds
+[0m14:58:11.684715 [debug] [Thread-1 (]: On model.shop.stg_orders: Close
+[0m14:58:11.693068 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '7d8c9aee-0e9e-4daf-9df5-7dbabff0ffa6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028F623FCC50>]}
+[0m14:58:11.694815 [info ] [Thread-1 (]: 1 of 14 OK created sql view model main.stg_orders .............................. [[32mOK[0m in 0.26s]
+[0m14:58:11.697346 [debug] [Thread-1 (]: Finished running node model.shop.stg_orders
+[0m14:58:11.699545 [debug] [Thread-1 (]: Began running node unit_test.shop.int_orders_checked.test_unknown_country_is_rejected
+[0m14:58:11.701793 [info ] [Thread-1 (]: 2 of 14 START unit_test int_orders_checked::test_unknown_country_is_rejected ... [RUN]
+[0m14:58:11.703701 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.shop.stg_orders, now unit_test.shop.int_orders_checked.test_unknown_country_is_rejected)
+[0m14:58:11.704976 [debug] [Thread-1 (]: Began compiling node unit_test.shop.int_orders_checked.test_unknown_country_is_rejected
+[0m14:58:11.705941 [debug] [Thread-1 (]: Began executing node unit_test.shop.int_orders_checked.test_unknown_country_is_rejected
+[0m14:58:11.796583 [debug] [Thread-1 (]: Using duckdb connection "unit_test.shop.int_orders_checked.test_unknown_country_is_rejected"
+[0m14:58:11.798370 [debug] [Thread-1 (]: On unit_test.shop.int_orders_checked.test_unknown_country_is_rejected: BEGIN
+[0m14:58:11.799410 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m14:58:11.801686 [debug] [Thread-1 (]: SQL status: OK in 0.002 seconds
+[0m14:58:11.802780 [debug] [Thread-1 (]: Using duckdb connection "unit_test.shop.int_orders_checked.test_unknown_country_is_rejected"
+[0m14:58:11.803552 [debug] [Thread-1 (]: On unit_test.shop.int_orders_checked.test_unknown_country_is_rejected: /* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "shop", "target_name": "dev", "node_id": "unit_test.shop.int_orders_checked.test_unknown_country_is_rejected"} */
+
+      select
+          column_name,
+          column_type as data_type,
+          cast(null as bigint) as character_maximum_length,
+          cast(null as bigint) as numeric_precision,
+          cast(null as bigint) as numeric_scale
+      from (describe "warehouse"."main"."stg_orders")
+  
+[0m14:58:11.809088 [debug] [Thread-1 (]: SQL status: OK in 0.004 seconds
+[0m14:58:11.878253 [debug] [Thread-1 (]: Writing injected SQL for node "unit_test.shop.int_orders_checked.test_unknown_country_is_rejected"
+[0m14:58:11.896453 [debug] [Thread-1 (]: Writing injected SQL for node "unit_test.shop.int_orders_checked.test_unknown_country_is_rejected"
+[0m14:58:11.988862 [debug] [Thread-1 (]: Using duckdb connection "unit_test.shop.int_orders_checked.test_unknown_country_is_rejected"
+[0m14:58:11.989947 [debug] [Thread-1 (]: On unit_test.shop.int_orders_checked.test_unknown_country_is_rejected: /* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "shop", "target_name": "dev", "node_id": "unit_test.shop.int_orders_checked.test_unknown_country_is_rejected"} */
+
+    
+    
+
+    create temporary table
+      "test_unknown_country_is_rejected__dbt_tmp20261106145811944235"
+  
+    
+    as (
+      select * from (
+        with __dbt__cte__stg_orders as (
+
+-- Fixture for stg_orders
+select 
+    
+    cast(1 as INTEGER)
+ as "order_id", 
+    
+    cast('2026-10-05' as DATE)
+ as "order_date", 
+    
+    cast('C001' as character varying)
+ as "customer_id", 
+    
+    cast('Spain' as character varying)
+ as "country", cast(null as character varying(256)) as "product", 
+    
+    cast(1 as INTEGER)
+ as "quantity", 
+    
+    cast(10.0 as DECIMAL(10,2))
+ as "unit_price", 
+    
+    cast(1 as BIGINT)
+ as "_row_number", cast(null as TIMESTAMP WITH TIME ZONE) as "_loaded_at"
+union all
+select 
+    
+    cast(2 as INTEGER)
+ as "order_id", 
+    
+    cast('2026-10-05' as DATE)
+ as "order_date", 
+    
+    cast('C002' as character varying)
+ as "customer_id", 
+    
+    cast('Italy' as character varying)
+ as "country", cast(null as character varying(256)) as "product", 
+    
+    cast(1 as INTEGER)
+ as "quantity", 
+    
+    cast(10.0 as DECIMAL(10,2))
+ as "unit_price", 
+    
+    cast(2 as BIGINT)
+ as "_row_number", cast(null as TIMESTAMP WITH TIME ZONE) as "_loaded_at"
+) -- The six quality rules from TP1 and TP2. The first rule that matches wins.
+select
+    *,
+    case
+        when customer_id is null                         then 'missing_customer_id'
+        when order_date is null                          then 'invalid_date'
+        when quantity is null or quantity <= 0           then 'invalid_quantity'
+                when unit_price is null
+          or unit_price not between 0.01 and 1000
+            then 'invalid_unit_price'
+
+        when row_number() over (
+            partition by order_id
+            order by _row_number
+        ) > 1
+            then 'duplicate_order_id'
+
+        when country not in (
+            'France', 'Germany', 'Italy', 'Morocco', 'Tunisia'
+        )
+            then 'unknown_country'
+    end as reject_reason
+from __dbt__cte__stg_orders
+    ) as __dbt_sbq
+    where false
+    limit 0
+
+    );
+    
+  
+  
+[0m14:58:12.010891 [debug] [Thread-1 (]: SQL status: OK in 0.020 seconds
+[0m14:58:12.014897 [debug] [Thread-1 (]: Using duckdb connection "unit_test.shop.int_orders_checked.test_unknown_country_is_rejected"
+[0m14:58:12.015580 [debug] [Thread-1 (]: On unit_test.shop.int_orders_checked.test_unknown_country_is_rejected: /* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "shop", "target_name": "dev", "node_id": "unit_test.shop.int_orders_checked.test_unknown_country_is_rejected"} */
+
+      select
+          column_name,
+          column_type as data_type,
+          cast(null as bigint) as character_maximum_length,
+          cast(null as bigint) as numeric_precision,
+          cast(null as bigint) as numeric_scale
+      from (describe "test_unknown_country_is_rejected__dbt_tmp20261106145811944235")
+  
+[0m14:58:12.018160 [debug] [Thread-1 (]: SQL status: OK in 0.002 seconds
+[0m14:58:12.041594 [debug] [Thread-1 (]: Writing runtime sql for node "unit_test.shop.int_orders_checked.test_unknown_country_is_rejected"
+[0m14:58:12.044762 [debug] [Thread-1 (]: Using duckdb connection "unit_test.shop.int_orders_checked.test_unknown_country_is_rejected"
+[0m14:58:12.046043 [debug] [Thread-1 (]: On unit_test.shop.int_orders_checked.test_unknown_country_is_rejected: /* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "shop", "target_name": "dev", "node_id": "unit_test.shop.int_orders_checked.test_unknown_country_is_rejected"} */
+
+    -- Build actual result given inputs
+with dbt_internal_unit_test_actual as (
+  select
+    "order_id","reject_reason", 'actual' as "actual_or_expected"
+  from (
+    with __dbt__cte__stg_orders as (
+
+-- Fixture for stg_orders
+select 
+    
+    cast(1 as INTEGER)
+ as "order_id", 
+    
+    cast('2026-10-05' as DATE)
+ as "order_date", 
+    
+    cast('C001' as character varying)
+ as "customer_id", 
+    
+    cast('Spain' as character varying)
+ as "country", cast(null as character varying(256)) as "product", 
+    
+    cast(1 as INTEGER)
+ as "quantity", 
+    
+    cast(10.0 as DECIMAL(10,2))
+ as "unit_price", 
+    
+    cast(1 as BIGINT)
+ as "_row_number", cast(null as TIMESTAMP WITH TIME ZONE) as "_loaded_at"
+union all
+select 
+    
+    cast(2 as INTEGER)
+ as "order_id", 
+    
+    cast('2026-10-05' as DATE)
+ as "order_date", 
+    
+    cast('C002' as character varying)
+ as "customer_id", 
+    
+    cast('Italy' as character varying)
+ as "country", cast(null as character varying(256)) as "product", 
+    
+    cast(1 as INTEGER)
+ as "quantity", 
+    
+    cast(10.0 as DECIMAL(10,2))
+ as "unit_price", 
+    
+    cast(2 as BIGINT)
+ as "_row_number", cast(null as TIMESTAMP WITH TIME ZONE) as "_loaded_at"
+) -- The six quality rules from TP1 and TP2. The first rule that matches wins.
+select
+    *,
+    case
+        when customer_id is null                         then 'missing_customer_id'
+        when order_date is null                          then 'invalid_date'
+        when quantity is null or quantity <= 0           then 'invalid_quantity'
+                when unit_price is null
+          or unit_price not between 0.01 and 1000
+            then 'invalid_unit_price'
+
+        when row_number() over (
+            partition by order_id
+            order by _row_number
+        ) > 1
+            then 'duplicate_order_id'
+
+        when country not in (
+            'France', 'Germany', 'Italy', 'Morocco', 'Tunisia'
+        )
+            then 'unknown_country'
+    end as reject_reason
+from __dbt__cte__stg_orders
+  ) _dbt_internal_unit_test_actual
+),
+-- Build expected result
+dbt_internal_unit_test_expected as (
+  select
+    "order_id", "reject_reason", 'expected' as "actual_or_expected"
+  from (
+    select 
+    
+    cast(1 as INTEGER)
+ as "order_id", 
+    
+    cast('unknown_country' as character varying)
+ as "reject_reason"
+union all
+select 
+    
+    cast(2 as INTEGER)
+ as "order_id", 
+    
+    cast(null as character varying(256))
+ as "reject_reason"
+  ) _dbt_internal_unit_test_expected
+)
+-- Union actual and expected results
+select * from dbt_internal_unit_test_actual
+union all
+select * from dbt_internal_unit_test_expected
+[0m14:58:12.070897 [debug] [Thread-1 (]: SQL status: OK in 0.024 seconds
+[0m14:58:12.077135 [debug] [Thread-1 (]: Using duckdb connection "unit_test.shop.int_orders_checked.test_unknown_country_is_rejected"
+[0m14:58:12.077915 [debug] [Thread-1 (]: On unit_test.shop.int_orders_checked.test_unknown_country_is_rejected: /* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "shop", "target_name": "dev", "node_id": "unit_test.shop.int_orders_checked.test_unknown_country_is_rejected"} */
+
+      drop table if exists "test_unknown_country_is_rejected__dbt_tmp20261106145811944235" cascade
+    
+[0m14:58:12.079488 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m14:58:12.092666 [debug] [Thread-1 (]: On unit_test.shop.int_orders_checked.test_unknown_country_is_rejected: ROLLBACK
+[0m14:58:12.094886 [debug] [Thread-1 (]: On unit_test.shop.int_orders_checked.test_unknown_country_is_rejected: Close
+[0m14:58:12.096197 [info ] [Thread-1 (]: 2 of 14 PASS int_orders_checked::test_unknown_country_is_rejected .............. [[32mPASS[0m in 0.39s]
+[0m14:58:12.098142 [debug] [Thread-1 (]: Finished running node unit_test.shop.int_orders_checked.test_unknown_country_is_rejected
+[0m14:58:12.099061 [debug] [Thread-1 (]: Began running node unit_test.shop.int_orders_checked.test_duplicate_order_keeps_the_first
+[0m14:58:12.099824 [info ] [Thread-1 (]: 3 of 14 START unit_test int_orders_checked::test_duplicate_order_keeps_the_first  [RUN]
+[0m14:58:12.101197 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly unit_test.shop.int_orders_checked.test_unknown_country_is_rejected, now unit_test.shop.int_orders_checked.test_duplicate_order_keeps_the_first)
+[0m14:58:12.102302 [debug] [Thread-1 (]: Began compiling node unit_test.shop.int_orders_checked.test_duplicate_order_keeps_the_first
+[0m14:58:12.103157 [debug] [Thread-1 (]: Began executing node unit_test.shop.int_orders_checked.test_duplicate_order_keeps_the_first
+[0m14:58:12.117932 [debug] [Thread-1 (]: Using duckdb connection "unit_test.shop.int_orders_checked.test_duplicate_order_keeps_the_first"
+[0m14:58:12.119131 [debug] [Thread-1 (]: On unit_test.shop.int_orders_checked.test_duplicate_order_keeps_the_first: BEGIN
+[0m14:58:12.120214 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m14:58:12.122315 [debug] [Thread-1 (]: SQL status: OK in 0.002 seconds
+[0m14:58:12.123413 [debug] [Thread-1 (]: Using duckdb connection "unit_test.shop.int_orders_checked.test_duplicate_order_keeps_the_first"
+[0m14:58:12.124200 [debug] [Thread-1 (]: On unit_test.shop.int_orders_checked.test_duplicate_order_keeps_the_first: /* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "shop", "target_name": "dev", "node_id": "unit_test.shop.int_orders_checked.test_duplicate_order_keeps_the_first"} */
+
+      select
+          column_name,
+          column_type as data_type,
+          cast(null as bigint) as character_maximum_length,
+          cast(null as bigint) as numeric_precision,
+          cast(null as bigint) as numeric_scale
+      from (describe "warehouse"."main"."stg_orders")
+  
+[0m14:58:12.128425 [debug] [Thread-1 (]: SQL status: OK in 0.003 seconds
+[0m14:58:12.154890 [debug] [Thread-1 (]: Writing injected SQL for node "unit_test.shop.int_orders_checked.test_duplicate_order_keeps_the_first"
+[0m14:58:12.169030 [debug] [Thread-1 (]: Writing injected SQL for node "unit_test.shop.int_orders_checked.test_duplicate_order_keeps_the_first"
+[0m14:58:12.179060 [debug] [Thread-1 (]: Using duckdb connection "unit_test.shop.int_orders_checked.test_duplicate_order_keeps_the_first"
+[0m14:58:12.180622 [debug] [Thread-1 (]: On unit_test.shop.int_orders_checked.test_duplicate_order_keeps_the_first: /* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "shop", "target_name": "dev", "node_id": "unit_test.shop.int_orders_checked.test_duplicate_order_keeps_the_first"} */
+
+    
+    
+
+    create temporary table
+      "test_duplicate_order_keeps_the_first__dbt_tmp20261106145812175789"
+  
+    
+    as (
+      select * from (
+        with __dbt__cte__stg_orders as (
+
+-- Fixture for stg_orders
+select 
+    
+    cast(1 as INTEGER)
+ as "order_id", 
+    
+    cast('2026-10-05' as DATE)
+ as "order_date", 
+    
+    cast('C001' as character varying)
+ as "customer_id", 
+    
+    cast('Italy' as character varying)
+ as "country", cast(null as character varying(256)) as "product", 
+    
+    cast(1 as INTEGER)
+ as "quantity", 
+    
+    cast(10.0 as DECIMAL(10,2))
+ as "unit_price", 
+    
+    cast(1 as BIGINT)
+ as "_row_number", cast(null as TIMESTAMP WITH TIME ZONE) as "_loaded_at"
+union all
+select 
+    
+    cast(1 as INTEGER)
+ as "order_id", 
+    
+    cast('2026-10-05' as DATE)
+ as "order_date", 
+    
+    cast('C001' as character varying)
+ as "customer_id", 
+    
+    cast('Italy' as character varying)
+ as "country", cast(null as character varying(256)) as "product", 
+    
+    cast(1 as INTEGER)
+ as "quantity", 
+    
+    cast(10.0 as DECIMAL(10,2))
+ as "unit_price", 
+    
+    cast(2 as BIGINT)
+ as "_row_number", cast(null as TIMESTAMP WITH TIME ZONE) as "_loaded_at"
+) -- The six quality rules from TP1 and TP2. The first rule that matches wins.
+select
+    *,
+    case
+        when customer_id is null                         then 'missing_customer_id'
+        when order_date is null                          then 'invalid_date'
+        when quantity is null or quantity <= 0           then 'invalid_quantity'
+                when unit_price is null
+          or unit_price not between 0.01 and 1000
+            then 'invalid_unit_price'
+
+        when row_number() over (
+            partition by order_id
+            order by _row_number
+        ) > 1
+            then 'duplicate_order_id'
+
+        when country not in (
+            'France', 'Germany', 'Italy', 'Morocco', 'Tunisia'
+        )
+            then 'unknown_country'
+    end as reject_reason
+from __dbt__cte__stg_orders
+    ) as __dbt_sbq
+    where false
+    limit 0
+
+    );
+    
+  
+  
+[0m14:58:12.190767 [debug] [Thread-1 (]: SQL status: OK in 0.009 seconds
+[0m14:58:12.196358 [debug] [Thread-1 (]: Using duckdb connection "unit_test.shop.int_orders_checked.test_duplicate_order_keeps_the_first"
+[0m14:58:12.197528 [debug] [Thread-1 (]: On unit_test.shop.int_orders_checked.test_duplicate_order_keeps_the_first: /* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "shop", "target_name": "dev", "node_id": "unit_test.shop.int_orders_checked.test_duplicate_order_keeps_the_first"} */
+
+      select
+          column_name,
+          column_type as data_type,
+          cast(null as bigint) as character_maximum_length,
+          cast(null as bigint) as numeric_precision,
+          cast(null as bigint) as numeric_scale
+      from (describe "test_duplicate_order_keeps_the_first__dbt_tmp20261106145812175789")
+  
+[0m14:58:12.201333 [debug] [Thread-1 (]: SQL status: OK in 0.003 seconds
+[0m14:58:12.211028 [debug] [Thread-1 (]: Writing runtime sql for node "unit_test.shop.int_orders_checked.test_duplicate_order_keeps_the_first"
+[0m14:58:12.213494 [debug] [Thread-1 (]: Using duckdb connection "unit_test.shop.int_orders_checked.test_duplicate_order_keeps_the_first"
+[0m14:58:12.214855 [debug] [Thread-1 (]: On unit_test.shop.int_orders_checked.test_duplicate_order_keeps_the_first: /* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "shop", "target_name": "dev", "node_id": "unit_test.shop.int_orders_checked.test_duplicate_order_keeps_the_first"} */
+
+    -- Build actual result given inputs
+with dbt_internal_unit_test_actual as (
+  select
+    "_row_number","reject_reason", 'actual' as "actual_or_expected"
+  from (
+    with __dbt__cte__stg_orders as (
+
+-- Fixture for stg_orders
+select 
+    
+    cast(1 as INTEGER)
+ as "order_id", 
+    
+    cast('2026-10-05' as DATE)
+ as "order_date", 
+    
+    cast('C001' as character varying)
+ as "customer_id", 
+    
+    cast('Italy' as character varying)
+ as "country", cast(null as character varying(256)) as "product", 
+    
+    cast(1 as INTEGER)
+ as "quantity", 
+    
+    cast(10.0 as DECIMAL(10,2))
+ as "unit_price", 
+    
+    cast(1 as BIGINT)
+ as "_row_number", cast(null as TIMESTAMP WITH TIME ZONE) as "_loaded_at"
+union all
+select 
+    
+    cast(1 as INTEGER)
+ as "order_id", 
+    
+    cast('2026-10-05' as DATE)
+ as "order_date", 
+    
+    cast('C001' as character varying)
+ as "customer_id", 
+    
+    cast('Italy' as character varying)
+ as "country", cast(null as character varying(256)) as "product", 
+    
+    cast(1 as INTEGER)
+ as "quantity", 
+    
+    cast(10.0 as DECIMAL(10,2))
+ as "unit_price", 
+    
+    cast(2 as BIGINT)
+ as "_row_number", cast(null as TIMESTAMP WITH TIME ZONE) as "_loaded_at"
+) -- The six quality rules from TP1 and TP2. The first rule that matches wins.
+select
+    *,
+    case
+        when customer_id is null                         then 'missing_customer_id'
+        when order_date is null                          then 'invalid_date'
+        when quantity is null or quantity <= 0           then 'invalid_quantity'
+                when unit_price is null
+          or unit_price not between 0.01 and 1000
+            then 'invalid_unit_price'
+
+        when row_number() over (
+            partition by order_id
+            order by _row_number
+        ) > 1
+            then 'duplicate_order_id'
+
+        when country not in (
+            'France', 'Germany', 'Italy', 'Morocco', 'Tunisia'
+        )
+            then 'unknown_country'
+    end as reject_reason
+from __dbt__cte__stg_orders
+  ) _dbt_internal_unit_test_actual
+),
+-- Build expected result
+dbt_internal_unit_test_expected as (
+  select
+    "_row_number", "reject_reason", 'expected' as "actual_or_expected"
+  from (
+    select 
+    
+    cast(2 as BIGINT)
+ as "_row_number", 
+    
+    cast('duplicate_order_id' as character varying)
+ as "reject_reason"
+union all
+select 
+    
+    cast(1 as BIGINT)
+ as "_row_number", 
+    
+    cast(null as character varying(256))
+ as "reject_reason"
+  ) _dbt_internal_unit_test_expected
+)
+-- Union actual and expected results
+select * from dbt_internal_unit_test_actual
+union all
+select * from dbt_internal_unit_test_expected
+[0m14:58:12.230306 [debug] [Thread-1 (]: SQL status: OK in 0.014 seconds
+[0m14:58:12.236988 [debug] [Thread-1 (]: Using duckdb connection "unit_test.shop.int_orders_checked.test_duplicate_order_keeps_the_first"
+[0m14:58:12.237846 [debug] [Thread-1 (]: On unit_test.shop.int_orders_checked.test_duplicate_order_keeps_the_first: /* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "shop", "target_name": "dev", "node_id": "unit_test.shop.int_orders_checked.test_duplicate_order_keeps_the_first"} */
+
+      drop table if exists "test_duplicate_order_keeps_the_first__dbt_tmp20261106145812175789" cascade
+    
+[0m14:58:12.239523 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m14:58:12.245136 [debug] [Thread-1 (]: On unit_test.shop.int_orders_checked.test_duplicate_order_keeps_the_first: ROLLBACK
+[0m14:58:12.246882 [debug] [Thread-1 (]: On unit_test.shop.int_orders_checked.test_duplicate_order_keeps_the_first: Close
+[0m14:58:12.248126 [info ] [Thread-1 (]: 3 of 14 PASS int_orders_checked::test_duplicate_order_keeps_the_first .......... [[32mPASS[0m in 0.15s]
+[0m14:58:12.249635 [debug] [Thread-1 (]: Finished running node unit_test.shop.int_orders_checked.test_duplicate_order_keeps_the_first
+[0m14:58:12.250505 [debug] [Thread-1 (]: Began running node model.shop.int_orders_checked
+[0m14:58:12.251909 [info ] [Thread-1 (]: 4 of 14 START sql view model main.int_orders_checked ........................... [RUN]
+[0m14:58:12.253402 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly unit_test.shop.int_orders_checked.test_duplicate_order_keeps_the_first, now model.shop.int_orders_checked)
+[0m14:58:12.254199 [debug] [Thread-1 (]: Began compiling node model.shop.int_orders_checked
+[0m14:58:12.257942 [debug] [Thread-1 (]: Writing injected SQL for node "model.shop.int_orders_checked"
+[0m14:58:12.259913 [debug] [Thread-1 (]: Began executing node model.shop.int_orders_checked
+[0m14:58:12.265439 [debug] [Thread-1 (]: Writing runtime sql for node "model.shop.int_orders_checked"
+[0m14:58:12.267496 [debug] [Thread-1 (]: Using duckdb connection "model.shop.int_orders_checked"
+[0m14:58:12.268747 [debug] [Thread-1 (]: On model.shop.int_orders_checked: BEGIN
+[0m14:58:12.269488 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m14:58:12.271188 [debug] [Thread-1 (]: SQL status: OK in 0.002 seconds
+[0m14:58:12.272271 [debug] [Thread-1 (]: Using duckdb connection "model.shop.int_orders_checked"
+[0m14:58:12.273446 [debug] [Thread-1 (]: On model.shop.int_orders_checked: /* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "shop", "target_name": "dev", "node_id": "model.shop.int_orders_checked"} */
+
+  
+  create view "warehouse"."main"."int_orders_checked__dbt_tmp" as (
+    -- The six quality rules from TP1 and TP2. The first rule that matches wins.
+select
+    *,
+    case
+        when customer_id is null                         then 'missing_customer_id'
+        when order_date is null                          then 'invalid_date'
+        when quantity is null or quantity <= 0           then 'invalid_quantity'
+                when unit_price is null
+          or unit_price not between 0.01 and 1000
+            then 'invalid_unit_price'
+
+        when row_number() over (
+            partition by order_id
+            order by _row_number
+        ) > 1
+            then 'duplicate_order_id'
+
+        when country not in (
+            'France', 'Germany', 'Italy', 'Morocco', 'Tunisia'
+        )
+            then 'unknown_country'
+    end as reject_reason
+from "warehouse"."main"."stg_orders"
+  );
+
+[0m14:58:12.280285 [debug] [Thread-1 (]: SQL status: OK in 0.005 seconds
+[0m14:58:12.285783 [debug] [Thread-1 (]: Using duckdb connection "model.shop.int_orders_checked"
+[0m14:58:12.287103 [debug] [Thread-1 (]: On model.shop.int_orders_checked: /* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "shop", "target_name": "dev", "node_id": "model.shop.int_orders_checked"} */
+alter view "warehouse"."main"."int_orders_checked" rename to "int_orders_checked__dbt_backup"
+[0m14:58:12.289322 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m14:58:12.293450 [debug] [Thread-1 (]: Using duckdb connection "model.shop.int_orders_checked"
+[0m14:58:12.294220 [debug] [Thread-1 (]: On model.shop.int_orders_checked: /* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "shop", "target_name": "dev", "node_id": "model.shop.int_orders_checked"} */
+alter view "warehouse"."main"."int_orders_checked__dbt_tmp" rename to "int_orders_checked"
+[0m14:58:12.296266 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m14:58:12.299247 [debug] [Thread-1 (]: On model.shop.int_orders_checked: COMMIT
+[0m14:58:12.299991 [debug] [Thread-1 (]: Using duckdb connection "model.shop.int_orders_checked"
+[0m14:58:12.300789 [debug] [Thread-1 (]: On model.shop.int_orders_checked: COMMIT
+[0m14:58:12.307674 [debug] [Thread-1 (]: SQL status: OK in 0.006 seconds
+[0m14:58:12.311339 [debug] [Thread-1 (]: Using duckdb connection "model.shop.int_orders_checked"
+[0m14:58:12.312121 [debug] [Thread-1 (]: On model.shop.int_orders_checked: /* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "shop", "target_name": "dev", "node_id": "model.shop.int_orders_checked"} */
+
+      drop view if exists "warehouse"."main"."int_orders_checked__dbt_backup" cascade
+    
+[0m14:58:12.314987 [debug] [Thread-1 (]: SQL status: OK in 0.002 seconds
+[0m14:58:12.317859 [debug] [Thread-1 (]: On model.shop.int_orders_checked: Close
+[0m14:58:12.319311 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '7d8c9aee-0e9e-4daf-9df5-7dbabff0ffa6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028F62101390>]}
+[0m14:58:12.320643 [info ] [Thread-1 (]: 4 of 14 OK created sql view model main.int_orders_checked ...................... [[32mOK[0m in 0.07s]
+[0m14:58:12.322308 [debug] [Thread-1 (]: Finished running node model.shop.int_orders_checked
+[0m14:58:12.323737 [debug] [Thread-1 (]: Began running node test.shop.assert_reject_rate_below_20_perccent
+[0m14:58:12.324571 [info ] [Thread-1 (]: 5 of 14 START test assert_reject_rate_below_20_perccent ........................ [RUN]
+[0m14:58:12.326095 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.shop.int_orders_checked, now test.shop.assert_reject_rate_below_20_perccent)
+[0m14:58:12.327208 [debug] [Thread-1 (]: Began compiling node test.shop.assert_reject_rate_below_20_perccent
+[0m14:58:12.331792 [debug] [Thread-1 (]: Writing injected SQL for node "test.shop.assert_reject_rate_below_20_perccent"
+[0m14:58:12.333808 [debug] [Thread-1 (]: Began executing node test.shop.assert_reject_rate_below_20_perccent
+[0m14:58:12.387422 [debug] [Thread-1 (]: Writing runtime sql for node "test.shop.assert_reject_rate_below_20_perccent"
+[0m14:58:12.390601 [debug] [Thread-1 (]: Using duckdb connection "test.shop.assert_reject_rate_below_20_perccent"
+[0m14:58:12.391831 [debug] [Thread-1 (]: On test.shop.assert_reject_rate_below_20_perccent: BEGIN
+[0m14:58:12.392745 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m14:58:12.394233 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m14:58:12.395441 [debug] [Thread-1 (]: Using duckdb connection "test.shop.assert_reject_rate_below_20_perccent"
+[0m14:58:12.396751 [debug] [Thread-1 (]: On test.shop.assert_reject_rate_below_20_perccent: /* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "shop", "target_name": "dev", "node_id": "test.shop.assert_reject_rate_below_20_perccent"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  -- Stop the chain if more than 20 % of the rows were rejected.
+-- A data test passes when it returns no rows.
+select
+    count(*) filter (where reject_reason is not null) as n_rejected,
+    count(*) as n_total
+from "warehouse"."main"."int_orders_checked"
+having count(*) filter (where reject_reason is not null) > 0.20 * count(*)
+  
+  
+      
+    ) dbt_internal_test
+[0m14:58:12.434468 [debug] [Thread-1 (]: SQL status: OK in 0.036 seconds
+[0m14:58:12.441910 [debug] [Thread-1 (]: On test.shop.assert_reject_rate_below_20_perccent: ROLLBACK
+[0m14:58:12.443630 [debug] [Thread-1 (]: On test.shop.assert_reject_rate_below_20_perccent: Close
+[0m14:58:12.445225 [info ] [Thread-1 (]: 5 of 14 PASS assert_reject_rate_below_20_perccent .............................. [[32mPASS[0m in 0.12s]
+[0m14:58:12.446790 [debug] [Thread-1 (]: Finished running node test.shop.assert_reject_rate_below_20_perccent
+[0m14:58:12.448121 [debug] [Thread-1 (]: Began running node model.shop.orders_clean
+[0m14:58:12.449095 [info ] [Thread-1 (]: 6 of 14 START sql table model main.orders_clean ................................ [RUN]
+[0m14:58:12.450970 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.shop.assert_reject_rate_below_20_perccent, now model.shop.orders_clean)
+[0m14:58:12.452203 [debug] [Thread-1 (]: Began compiling node model.shop.orders_clean
+[0m14:58:12.455564 [debug] [Thread-1 (]: Writing injected SQL for node "model.shop.orders_clean"
+[0m14:58:12.457745 [debug] [Thread-1 (]: Began executing node model.shop.orders_clean
+[0m14:58:12.524200 [debug] [Thread-1 (]: Writing runtime sql for node "model.shop.orders_clean"
+[0m14:58:12.526467 [debug] [Thread-1 (]: Using duckdb connection "model.shop.orders_clean"
+[0m14:58:12.527218 [debug] [Thread-1 (]: On model.shop.orders_clean: BEGIN
+[0m14:58:12.527850 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m14:58:12.529694 [debug] [Thread-1 (]: SQL status: OK in 0.002 seconds
+[0m14:58:12.530473 [debug] [Thread-1 (]: Using duckdb connection "model.shop.orders_clean"
+[0m14:58:12.531275 [debug] [Thread-1 (]: On model.shop.orders_clean: /* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "shop", "target_name": "dev", "node_id": "model.shop.orders_clean"} */
+
+    
+
+    create  table
+      "warehouse"."main"."orders_clean__dbt_tmp"
+  
+    
+    as (
+      select * exclude (reject_reason)
+from "warehouse"."main"."int_orders_checked"
+where reject_reason is null
+    );
+    
+  
+[0m14:58:12.563623 [debug] [Thread-1 (]: SQL status: OK in 0.031 seconds
+[0m14:58:12.575164 [debug] [Thread-1 (]: Using duckdb connection "model.shop.orders_clean"
+[0m14:58:12.576106 [debug] [Thread-1 (]: On model.shop.orders_clean: /* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "shop", "target_name": "dev", "node_id": "model.shop.orders_clean"} */
+
+    SELECT index_name
+    FROM duckdb_indexes()
+    WHERE database_name = 'warehouse'
+      AND schema_name = 'main'
+      AND table_name = 'orders_clean'
+  
+[0m14:58:12.580841 [debug] [Thread-1 (]: SQL status: OK in 0.004 seconds
+[0m14:58:12.586199 [debug] [Thread-1 (]: Using duckdb connection "model.shop.orders_clean"
+[0m14:58:12.587058 [debug] [Thread-1 (]: On model.shop.orders_clean: /* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "shop", "target_name": "dev", "node_id": "model.shop.orders_clean"} */
+alter table "warehouse"."main"."orders_clean" rename to "orders_clean__dbt_backup"
+[0m14:58:12.589014 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m14:58:12.594276 [debug] [Thread-1 (]: Using duckdb connection "model.shop.orders_clean"
+[0m14:58:12.595131 [debug] [Thread-1 (]: On model.shop.orders_clean: /* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "shop", "target_name": "dev", "node_id": "model.shop.orders_clean"} */
+alter table "warehouse"."main"."orders_clean__dbt_tmp" rename to "orders_clean"
+[0m14:58:12.597338 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m14:58:12.612363 [debug] [Thread-1 (]: On model.shop.orders_clean: COMMIT
+[0m14:58:12.613637 [debug] [Thread-1 (]: Using duckdb connection "model.shop.orders_clean"
+[0m14:58:12.614628 [debug] [Thread-1 (]: On model.shop.orders_clean: COMMIT
+[0m14:58:12.619261 [debug] [Thread-1 (]: SQL status: OK in 0.004 seconds
+[0m14:58:12.624158 [debug] [Thread-1 (]: Using duckdb connection "model.shop.orders_clean"
+[0m14:58:12.625308 [debug] [Thread-1 (]: On model.shop.orders_clean: /* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "shop", "target_name": "dev", "node_id": "model.shop.orders_clean"} */
+
+      drop table if exists "warehouse"."main"."orders_clean__dbt_backup" cascade
+    
+[0m14:58:12.629136 [debug] [Thread-1 (]: SQL status: OK in 0.003 seconds
+[0m14:58:12.631859 [debug] [Thread-1 (]: On model.shop.orders_clean: Close
+[0m14:58:12.633488 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '7d8c9aee-0e9e-4daf-9df5-7dbabff0ffa6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028F60D800F0>]}
+[0m14:58:12.635290 [info ] [Thread-1 (]: 6 of 14 OK created sql table model main.orders_clean ........................... [[32mOK[0m in 0.18s]
+[0m14:58:12.637080 [debug] [Thread-1 (]: Finished running node model.shop.orders_clean
+[0m14:58:12.638296 [debug] [Thread-1 (]: Began running node model.shop.orders_rejected
+[0m14:58:12.639683 [info ] [Thread-1 (]: 7 of 14 START sql table model main.orders_rejected ............................. [RUN]
+[0m14:58:12.641052 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.shop.orders_clean, now model.shop.orders_rejected)
+[0m14:58:12.641893 [debug] [Thread-1 (]: Began compiling node model.shop.orders_rejected
+[0m14:58:12.645819 [debug] [Thread-1 (]: Writing injected SQL for node "model.shop.orders_rejected"
+[0m14:58:12.647818 [debug] [Thread-1 (]: Began executing node model.shop.orders_rejected
+[0m14:58:12.654570 [debug] [Thread-1 (]: Writing runtime sql for node "model.shop.orders_rejected"
+[0m14:58:12.656746 [debug] [Thread-1 (]: Using duckdb connection "model.shop.orders_rejected"
+[0m14:58:12.657938 [debug] [Thread-1 (]: On model.shop.orders_rejected: BEGIN
+[0m14:58:12.658974 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m14:58:12.660981 [debug] [Thread-1 (]: SQL status: OK in 0.002 seconds
+[0m14:58:12.661801 [debug] [Thread-1 (]: Using duckdb connection "model.shop.orders_rejected"
+[0m14:58:12.662580 [debug] [Thread-1 (]: On model.shop.orders_rejected: /* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "shop", "target_name": "dev", "node_id": "model.shop.orders_rejected"} */
+
+    
+
+    create  table
+      "warehouse"."main"."orders_rejected__dbt_tmp"
+  
+    
+    as (
+      select *
+from "warehouse"."main"."int_orders_checked"
+where reject_reason is not null
+    );
+    
+  
+[0m14:58:12.696078 [debug] [Thread-1 (]: SQL status: OK in 0.032 seconds
+[0m14:58:12.698817 [debug] [Thread-1 (]: Using duckdb connection "model.shop.orders_rejected"
+[0m14:58:12.700010 [debug] [Thread-1 (]: On model.shop.orders_rejected: /* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "shop", "target_name": "dev", "node_id": "model.shop.orders_rejected"} */
+
+    SELECT index_name
+    FROM duckdb_indexes()
+    WHERE database_name = 'warehouse'
+      AND schema_name = 'main'
+      AND table_name = 'orders_rejected'
+  
+[0m14:58:12.703535 [debug] [Thread-1 (]: SQL status: OK in 0.003 seconds
+[0m14:58:12.708219 [debug] [Thread-1 (]: Using duckdb connection "model.shop.orders_rejected"
+[0m14:58:12.708958 [debug] [Thread-1 (]: On model.shop.orders_rejected: /* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "shop", "target_name": "dev", "node_id": "model.shop.orders_rejected"} */
+alter table "warehouse"."main"."orders_rejected" rename to "orders_rejected__dbt_backup"
+[0m14:58:12.711712 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m14:58:12.716109 [debug] [Thread-1 (]: Using duckdb connection "model.shop.orders_rejected"
+[0m14:58:12.716842 [debug] [Thread-1 (]: On model.shop.orders_rejected: /* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "shop", "target_name": "dev", "node_id": "model.shop.orders_rejected"} */
+alter table "warehouse"."main"."orders_rejected__dbt_tmp" rename to "orders_rejected"
+[0m14:58:12.718705 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m14:58:12.722544 [debug] [Thread-1 (]: On model.shop.orders_rejected: COMMIT
+[0m14:58:12.723359 [debug] [Thread-1 (]: Using duckdb connection "model.shop.orders_rejected"
+[0m14:58:12.724041 [debug] [Thread-1 (]: On model.shop.orders_rejected: COMMIT
+[0m14:58:12.732653 [debug] [Thread-1 (]: SQL status: OK in 0.008 seconds
+[0m14:58:12.736980 [debug] [Thread-1 (]: Using duckdb connection "model.shop.orders_rejected"
+[0m14:58:12.737794 [debug] [Thread-1 (]: On model.shop.orders_rejected: /* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "shop", "target_name": "dev", "node_id": "model.shop.orders_rejected"} */
+
+      drop table if exists "warehouse"."main"."orders_rejected__dbt_backup" cascade
+    
+[0m14:58:12.740894 [debug] [Thread-1 (]: SQL status: OK in 0.002 seconds
+[0m14:58:12.743480 [debug] [Thread-1 (]: On model.shop.orders_rejected: Close
+[0m14:58:12.744507 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '7d8c9aee-0e9e-4daf-9df5-7dbabff0ffa6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028F60D39150>]}
+[0m14:58:12.745628 [info ] [Thread-1 (]: 7 of 14 OK created sql table model main.orders_rejected ........................ [[32mOK[0m in 0.10s]
+[0m14:58:12.747256 [debug] [Thread-1 (]: Finished running node model.shop.orders_rejected
+[0m14:58:12.748264 [debug] [Thread-1 (]: Began running node test.shop.accepted_values_orders_clean_country__France__Germany__Italy__Morocco__Tunisia.e010735e44
+[0m14:58:12.749118 [info ] [Thread-1 (]: 8 of 14 START test accepted_values_orders_clean_country__France__Germany__Italy__Morocco__Tunisia  [RUN]
+[0m14:58:12.750562 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.shop.orders_rejected, now test.shop.accepted_values_orders_clean_country__France__Germany__Italy__Morocco__Tunisia.e010735e44)
+[0m14:58:12.751678 [debug] [Thread-1 (]: Began compiling node test.shop.accepted_values_orders_clean_country__France__Germany__Italy__Morocco__Tunisia.e010735e44
+[0m14:58:12.764267 [debug] [Thread-1 (]: Writing injected SQL for node "test.shop.accepted_values_orders_clean_country__France__Germany__Italy__Morocco__Tunisia.e010735e44"
+[0m14:58:12.766415 [debug] [Thread-1 (]: Began executing node test.shop.accepted_values_orders_clean_country__France__Germany__Italy__Morocco__Tunisia.e010735e44
+[0m14:58:12.770902 [debug] [Thread-1 (]: Writing runtime sql for node "test.shop.accepted_values_orders_clean_country__France__Germany__Italy__Morocco__Tunisia.e010735e44"
+[0m14:58:12.774153 [debug] [Thread-1 (]: Using duckdb connection "test.shop.accepted_values_orders_clean_country__France__Germany__Italy__Morocco__Tunisia.e010735e44"
+[0m14:58:12.775163 [debug] [Thread-1 (]: On test.shop.accepted_values_orders_clean_country__France__Germany__Italy__Morocco__Tunisia.e010735e44: BEGIN
+[0m14:58:12.776122 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m14:58:12.777611 [debug] [Thread-1 (]: SQL status: OK in 0.002 seconds
+[0m14:58:12.778404 [debug] [Thread-1 (]: Using duckdb connection "test.shop.accepted_values_orders_clean_country__France__Germany__Italy__Morocco__Tunisia.e010735e44"
+[0m14:58:12.779222 [debug] [Thread-1 (]: On test.shop.accepted_values_orders_clean_country__France__Germany__Italy__Morocco__Tunisia.e010735e44: /* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "shop", "target_name": "dev", "node_id": "test.shop.accepted_values_orders_clean_country__France__Germany__Italy__Morocco__Tunisia.e010735e44"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+with all_values as (
+
+    select
+        country as value_field,
+        count(*) as n_records
+
+    from "warehouse"."main"."orders_clean"
+    group by country
+
+)
+
+select *
+from all_values
+where value_field not in (
+    'France','Germany','Italy','Morocco','Tunisia'
+)
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m14:58:12.788677 [debug] [Thread-1 (]: SQL status: OK in 0.008 seconds
+[0m14:58:12.792440 [debug] [Thread-1 (]: On test.shop.accepted_values_orders_clean_country__France__Germany__Italy__Morocco__Tunisia.e010735e44: ROLLBACK
+[0m14:58:12.793980 [debug] [Thread-1 (]: On test.shop.accepted_values_orders_clean_country__France__Germany__Italy__Morocco__Tunisia.e010735e44: Close
+[0m14:58:12.795145 [info ] [Thread-1 (]: 8 of 14 PASS accepted_values_orders_clean_country__France__Germany__Italy__Morocco__Tunisia  [[32mPASS[0m in 0.04s]
+[0m14:58:12.796737 [debug] [Thread-1 (]: Finished running node test.shop.accepted_values_orders_clean_country__France__Germany__Italy__Morocco__Tunisia.e010735e44
+[0m14:58:12.797658 [debug] [Thread-1 (]: Began running node test.shop.assert_quantity_positive
+[0m14:58:12.798630 [info ] [Thread-1 (]: 9 of 14 START test assert_quantity_positive .................................... [RUN]
+[0m14:58:12.799863 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.shop.accepted_values_orders_clean_country__France__Germany__Italy__Morocco__Tunisia.e010735e44, now test.shop.assert_quantity_positive)
+[0m14:58:12.800911 [debug] [Thread-1 (]: Began compiling node test.shop.assert_quantity_positive
+[0m14:58:12.805137 [debug] [Thread-1 (]: Writing injected SQL for node "test.shop.assert_quantity_positive"
+[0m14:58:12.807911 [debug] [Thread-1 (]: Began executing node test.shop.assert_quantity_positive
+[0m14:58:12.812869 [debug] [Thread-1 (]: Writing runtime sql for node "test.shop.assert_quantity_positive"
+[0m14:58:12.814742 [debug] [Thread-1 (]: Using duckdb connection "test.shop.assert_quantity_positive"
+[0m14:58:12.815617 [debug] [Thread-1 (]: On test.shop.assert_quantity_positive: BEGIN
+[0m14:58:12.816531 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m14:58:12.818173 [debug] [Thread-1 (]: SQL status: OK in 0.002 seconds
+[0m14:58:12.819028 [debug] [Thread-1 (]: Using duckdb connection "test.shop.assert_quantity_positive"
+[0m14:58:12.820136 [debug] [Thread-1 (]: On test.shop.assert_quantity_positive: /* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "shop", "target_name": "dev", "node_id": "test.shop.assert_quantity_positive"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  select order_id, quantity
+from "warehouse"."main"."orders_clean"
+where quantity <= 0
+  
+  
+      
+    ) dbt_internal_test
+[0m14:58:12.824657 [debug] [Thread-1 (]: SQL status: OK in 0.003 seconds
+[0m14:58:12.827686 [debug] [Thread-1 (]: On test.shop.assert_quantity_positive: ROLLBACK
+[0m14:58:12.829256 [debug] [Thread-1 (]: On test.shop.assert_quantity_positive: Close
+[0m14:58:12.830513 [info ] [Thread-1 (]: 9 of 14 PASS assert_quantity_positive .......................................... [[32mPASS[0m in 0.03s]
+[0m14:58:12.832386 [debug] [Thread-1 (]: Finished running node test.shop.assert_quantity_positive
+[0m14:58:12.833580 [debug] [Thread-1 (]: Began running node test.shop.not_null_orders_clean_customer_id.8331ef9720
+[0m14:58:12.834948 [info ] [Thread-1 (]: 10 of 14 START test not_null_orders_clean_customer_id .......................... [RUN]
+[0m14:58:12.836592 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.shop.assert_quantity_positive, now test.shop.not_null_orders_clean_customer_id.8331ef9720)
+[0m14:58:12.837801 [debug] [Thread-1 (]: Began compiling node test.shop.not_null_orders_clean_customer_id.8331ef9720
+[0m14:58:12.859995 [debug] [Thread-1 (]: Writing injected SQL for node "test.shop.not_null_orders_clean_customer_id.8331ef9720"
+[0m14:58:12.861919 [debug] [Thread-1 (]: Began executing node test.shop.not_null_orders_clean_customer_id.8331ef9720
+[0m14:58:12.865389 [debug] [Thread-1 (]: Writing runtime sql for node "test.shop.not_null_orders_clean_customer_id.8331ef9720"
+[0m14:58:12.866992 [debug] [Thread-1 (]: Using duckdb connection "test.shop.not_null_orders_clean_customer_id.8331ef9720"
+[0m14:58:12.868017 [debug] [Thread-1 (]: On test.shop.not_null_orders_clean_customer_id.8331ef9720: BEGIN
+[0m14:58:12.869017 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m14:58:12.870993 [debug] [Thread-1 (]: SQL status: OK in 0.002 seconds
+[0m14:58:12.872098 [debug] [Thread-1 (]: Using duckdb connection "test.shop.not_null_orders_clean_customer_id.8331ef9720"
+[0m14:58:12.872874 [debug] [Thread-1 (]: On test.shop.not_null_orders_clean_customer_id.8331ef9720: /* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "shop", "target_name": "dev", "node_id": "test.shop.not_null_orders_clean_customer_id.8331ef9720"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select customer_id
+from "warehouse"."main"."orders_clean"
+where customer_id is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m14:58:12.876176 [debug] [Thread-1 (]: SQL status: OK in 0.002 seconds
+[0m14:58:12.879992 [debug] [Thread-1 (]: On test.shop.not_null_orders_clean_customer_id.8331ef9720: ROLLBACK
+[0m14:58:12.881649 [debug] [Thread-1 (]: On test.shop.not_null_orders_clean_customer_id.8331ef9720: Close
+[0m14:58:12.883175 [info ] [Thread-1 (]: 10 of 14 PASS not_null_orders_clean_customer_id ................................ [[32mPASS[0m in 0.05s]
+[0m14:58:12.885027 [debug] [Thread-1 (]: Finished running node test.shop.not_null_orders_clean_customer_id.8331ef9720
+[0m14:58:12.886161 [debug] [Thread-1 (]: Began running node test.shop.not_null_orders_clean_order_id.be6c1714de
+[0m14:58:12.887222 [info ] [Thread-1 (]: 11 of 14 START test not_null_orders_clean_order_id ............................. [RUN]
+[0m14:58:12.888734 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.shop.not_null_orders_clean_customer_id.8331ef9720, now test.shop.not_null_orders_clean_order_id.be6c1714de)
+[0m14:58:12.889473 [debug] [Thread-1 (]: Began compiling node test.shop.not_null_orders_clean_order_id.be6c1714de
+[0m14:58:12.904310 [debug] [Thread-1 (]: Writing injected SQL for node "test.shop.not_null_orders_clean_order_id.be6c1714de"
+[0m14:58:12.906564 [debug] [Thread-1 (]: Began executing node test.shop.not_null_orders_clean_order_id.be6c1714de
+[0m14:58:12.911351 [debug] [Thread-1 (]: Writing runtime sql for node "test.shop.not_null_orders_clean_order_id.be6c1714de"
+[0m14:58:12.913438 [debug] [Thread-1 (]: Using duckdb connection "test.shop.not_null_orders_clean_order_id.be6c1714de"
+[0m14:58:12.914448 [debug] [Thread-1 (]: On test.shop.not_null_orders_clean_order_id.be6c1714de: BEGIN
+[0m14:58:12.915541 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m14:58:12.917610 [debug] [Thread-1 (]: SQL status: OK in 0.002 seconds
+[0m14:58:12.918623 [debug] [Thread-1 (]: Using duckdb connection "test.shop.not_null_orders_clean_order_id.be6c1714de"
+[0m14:58:12.919564 [debug] [Thread-1 (]: On test.shop.not_null_orders_clean_order_id.be6c1714de: /* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "shop", "target_name": "dev", "node_id": "test.shop.not_null_orders_clean_order_id.be6c1714de"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+
+
+select order_id
+from "warehouse"."main"."orders_clean"
+where order_id is null
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m14:58:12.923315 [debug] [Thread-1 (]: SQL status: OK in 0.003 seconds
+[0m14:58:12.927228 [debug] [Thread-1 (]: On test.shop.not_null_orders_clean_order_id.be6c1714de: ROLLBACK
+[0m14:58:12.929015 [debug] [Thread-1 (]: On test.shop.not_null_orders_clean_order_id.be6c1714de: Close
+[0m14:58:12.930903 [info ] [Thread-1 (]: 11 of 14 PASS not_null_orders_clean_order_id ................................... [[32mPASS[0m in 0.04s]
+[0m14:58:12.932840 [debug] [Thread-1 (]: Finished running node test.shop.not_null_orders_clean_order_id.be6c1714de
+[0m14:58:12.934006 [debug] [Thread-1 (]: Began running node test.shop.unique_orders_clean_order_id.a141020452
+[0m14:58:12.935061 [info ] [Thread-1 (]: 12 of 14 START test unique_orders_clean_order_id ............................... [RUN]
+[0m14:58:12.936761 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.shop.not_null_orders_clean_order_id.be6c1714de, now test.shop.unique_orders_clean_order_id.a141020452)
+[0m14:58:12.937734 [debug] [Thread-1 (]: Began compiling node test.shop.unique_orders_clean_order_id.a141020452
+[0m14:58:12.961198 [debug] [Thread-1 (]: Writing injected SQL for node "test.shop.unique_orders_clean_order_id.a141020452"
+[0m14:58:12.964625 [debug] [Thread-1 (]: Began executing node test.shop.unique_orders_clean_order_id.a141020452
+[0m14:58:12.968244 [debug] [Thread-1 (]: Writing runtime sql for node "test.shop.unique_orders_clean_order_id.a141020452"
+[0m14:58:12.971087 [debug] [Thread-1 (]: Using duckdb connection "test.shop.unique_orders_clean_order_id.a141020452"
+[0m14:58:12.972332 [debug] [Thread-1 (]: On test.shop.unique_orders_clean_order_id.a141020452: BEGIN
+[0m14:58:12.973385 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m14:58:12.975317 [debug] [Thread-1 (]: SQL status: OK in 0.002 seconds
+[0m14:58:12.976162 [debug] [Thread-1 (]: Using duckdb connection "test.shop.unique_orders_clean_order_id.a141020452"
+[0m14:58:12.977201 [debug] [Thread-1 (]: On test.shop.unique_orders_clean_order_id.a141020452: /* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "shop", "target_name": "dev", "node_id": "test.shop.unique_orders_clean_order_id.a141020452"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+select
+    order_id as unique_field,
+    count(*) as n_records
+
+from "warehouse"."main"."orders_clean"
+where order_id is not null
+group by order_id
+having count(*) > 1
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m14:58:12.985313 [debug] [Thread-1 (]: SQL status: OK in 0.007 seconds
+[0m14:58:12.989238 [debug] [Thread-1 (]: On test.shop.unique_orders_clean_order_id.a141020452: ROLLBACK
+[0m14:58:12.991122 [debug] [Thread-1 (]: On test.shop.unique_orders_clean_order_id.a141020452: Close
+[0m14:58:12.992460 [info ] [Thread-1 (]: 12 of 14 PASS unique_orders_clean_order_id ..................................... [[32mPASS[0m in 0.06s]
+[0m14:58:12.994203 [debug] [Thread-1 (]: Finished running node test.shop.unique_orders_clean_order_id.a141020452
+[0m14:58:12.995600 [debug] [Thread-1 (]: Began running node model.shop.revenue_by_country
+[0m14:58:12.996813 [info ] [Thread-1 (]: 13 of 14 START sql table model main.revenue_by_country ......................... [RUN]
+[0m14:58:12.998097 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly test.shop.unique_orders_clean_order_id.a141020452, now model.shop.revenue_by_country)
+[0m14:58:12.998897 [debug] [Thread-1 (]: Began compiling node model.shop.revenue_by_country
+[0m14:58:13.003676 [debug] [Thread-1 (]: Writing injected SQL for node "model.shop.revenue_by_country"
+[0m14:58:13.005821 [debug] [Thread-1 (]: Began executing node model.shop.revenue_by_country
+[0m14:58:13.012085 [debug] [Thread-1 (]: Writing runtime sql for node "model.shop.revenue_by_country"
+[0m14:58:13.013988 [debug] [Thread-1 (]: Using duckdb connection "model.shop.revenue_by_country"
+[0m14:58:13.014995 [debug] [Thread-1 (]: On model.shop.revenue_by_country: BEGIN
+[0m14:58:13.015642 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m14:58:13.017280 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m14:58:13.018161 [debug] [Thread-1 (]: Using duckdb connection "model.shop.revenue_by_country"
+[0m14:58:13.019244 [debug] [Thread-1 (]: On model.shop.revenue_by_country: /* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "shop", "target_name": "dev", "node_id": "model.shop.revenue_by_country"} */
+
+    
+
+    create  table
+      "warehouse"."main"."revenue_by_country__dbt_tmp"
+  
+    
+    as (
+      select
+    country,
+    round(sum(quantity * unit_price), 2) as revenue
+from "warehouse"."main"."orders_clean"
+group by country
+order by country
+    );
+    
+  
+[0m14:58:13.032164 [debug] [Thread-1 (]: SQL status: OK in 0.012 seconds
+[0m14:58:13.034938 [debug] [Thread-1 (]: Using duckdb connection "model.shop.revenue_by_country"
+[0m14:58:13.035933 [debug] [Thread-1 (]: On model.shop.revenue_by_country: /* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "shop", "target_name": "dev", "node_id": "model.shop.revenue_by_country"} */
+
+    SELECT index_name
+    FROM duckdb_indexes()
+    WHERE database_name = 'warehouse'
+      AND schema_name = 'main'
+      AND table_name = 'revenue_by_country'
+  
+[0m14:58:13.039837 [debug] [Thread-1 (]: SQL status: OK in 0.003 seconds
+[0m14:58:13.045944 [debug] [Thread-1 (]: Using duckdb connection "model.shop.revenue_by_country"
+[0m14:58:13.046821 [debug] [Thread-1 (]: On model.shop.revenue_by_country: /* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "shop", "target_name": "dev", "node_id": "model.shop.revenue_by_country"} */
+alter table "warehouse"."main"."revenue_by_country" rename to "revenue_by_country__dbt_backup"
+[0m14:58:13.048697 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m14:58:13.053829 [debug] [Thread-1 (]: Using duckdb connection "model.shop.revenue_by_country"
+[0m14:58:13.054650 [debug] [Thread-1 (]: On model.shop.revenue_by_country: /* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "shop", "target_name": "dev", "node_id": "model.shop.revenue_by_country"} */
+alter table "warehouse"."main"."revenue_by_country__dbt_tmp" rename to "revenue_by_country"
+[0m14:58:13.056520 [debug] [Thread-1 (]: SQL status: OK in 0.001 seconds
+[0m14:58:13.060748 [debug] [Thread-1 (]: On model.shop.revenue_by_country: COMMIT
+[0m14:58:13.061715 [debug] [Thread-1 (]: Using duckdb connection "model.shop.revenue_by_country"
+[0m14:58:13.062387 [debug] [Thread-1 (]: On model.shop.revenue_by_country: COMMIT
+[0m14:58:13.066808 [debug] [Thread-1 (]: SQL status: OK in 0.004 seconds
+[0m14:58:13.071571 [debug] [Thread-1 (]: Using duckdb connection "model.shop.revenue_by_country"
+[0m14:58:13.072654 [debug] [Thread-1 (]: On model.shop.revenue_by_country: /* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "shop", "target_name": "dev", "node_id": "model.shop.revenue_by_country"} */
+
+      drop table if exists "warehouse"."main"."revenue_by_country__dbt_backup" cascade
+    
+[0m14:58:13.077564 [debug] [Thread-1 (]: SQL status: OK in 0.003 seconds
+[0m14:58:13.081178 [debug] [Thread-1 (]: On model.shop.revenue_by_country: Close
+[0m14:58:13.082794 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '7d8c9aee-0e9e-4daf-9df5-7dbabff0ffa6', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028F62417150>]}
+[0m14:58:13.084985 [info ] [Thread-1 (]: 13 of 14 OK created sql table model main.revenue_by_country .................... [[32mOK[0m in 0.08s]
+[0m14:58:13.088331 [debug] [Thread-1 (]: Finished running node model.shop.revenue_by_country
+[0m14:58:13.089980 [debug] [Thread-1 (]: Began running node test.shop.unique_revenue_by_country_country.a3853308cb
+[0m14:58:13.091125 [info ] [Thread-1 (]: 14 of 14 START test unique_revenue_by_country_country .......................... [RUN]
+[0m14:58:13.092702 [debug] [Thread-1 (]: Re-using an available connection from the pool (formerly model.shop.revenue_by_country, now test.shop.unique_revenue_by_country_country.a3853308cb)
+[0m14:58:13.093760 [debug] [Thread-1 (]: Began compiling node test.shop.unique_revenue_by_country_country.a3853308cb
+[0m14:58:13.112724 [debug] [Thread-1 (]: Writing injected SQL for node "test.shop.unique_revenue_by_country_country.a3853308cb"
+[0m14:58:13.115098 [debug] [Thread-1 (]: Began executing node test.shop.unique_revenue_by_country_country.a3853308cb
+[0m14:58:13.119854 [debug] [Thread-1 (]: Writing runtime sql for node "test.shop.unique_revenue_by_country_country.a3853308cb"
+[0m14:58:13.122674 [debug] [Thread-1 (]: Using duckdb connection "test.shop.unique_revenue_by_country_country.a3853308cb"
+[0m14:58:13.123863 [debug] [Thread-1 (]: On test.shop.unique_revenue_by_country_country.a3853308cb: BEGIN
+[0m14:58:13.124855 [debug] [Thread-1 (]: Opening a new connection, currently in state closed
+[0m14:58:13.126836 [debug] [Thread-1 (]: SQL status: OK in 0.002 seconds
+[0m14:58:13.127711 [debug] [Thread-1 (]: Using duckdb connection "test.shop.unique_revenue_by_country_country.a3853308cb"
+[0m14:58:13.128429 [debug] [Thread-1 (]: On test.shop.unique_revenue_by_country_country.a3853308cb: /* {"app": "dbt", "dbt_version": "1.12.6", "profile_name": "shop", "target_name": "dev", "node_id": "test.shop.unique_revenue_by_country_country.a3853308cb"} */
+
+    
+    select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+  
+    
+    
+
+select
+    country as unique_field,
+    count(*) as n_records
+
+from "warehouse"."main"."revenue_by_country"
+where country is not null
+group by country
+having count(*) > 1
+
+
+
+  
+  
+      
+    ) dbt_internal_test
+[0m14:58:13.133956 [debug] [Thread-1 (]: SQL status: OK in 0.005 seconds
+[0m14:58:13.138312 [debug] [Thread-1 (]: On test.shop.unique_revenue_by_country_country.a3853308cb: ROLLBACK
+[0m14:58:13.139829 [debug] [Thread-1 (]: On test.shop.unique_revenue_by_country_country.a3853308cb: Close
+[0m14:58:13.141040 [info ] [Thread-1 (]: 14 of 14 PASS unique_revenue_by_country_country ................................ [[32mPASS[0m in 0.05s]
+[0m14:58:13.143068 [debug] [Thread-1 (]: Finished running node test.shop.unique_revenue_by_country_country.a3853308cb
+[0m14:58:13.146126 [debug] [MainThread]: Using duckdb connection "master"
+[0m14:58:13.146925 [debug] [MainThread]: On master: BEGIN
+[0m14:58:13.147525 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m14:58:13.148882 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m14:58:13.149701 [debug] [MainThread]: On master: COMMIT
+[0m14:58:13.150462 [debug] [MainThread]: Using duckdb connection "master"
+[0m14:58:13.151478 [debug] [MainThread]: On master: COMMIT
+[0m14:58:13.153689 [debug] [MainThread]: SQL status: OK in 0.001 seconds
+[0m14:58:13.154879 [debug] [MainThread]: On master: Close
+[0m14:58:13.155975 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m14:58:13.156744 [debug] [MainThread]: Connection 'create_warehouse_main' was properly closed.
+[0m14:58:13.157336 [debug] [MainThread]: Connection 'list_warehouse_main' was properly closed.
+[0m14:58:13.158025 [debug] [MainThread]: Connection 'test.shop.unique_revenue_by_country_country.a3853308cb' was properly closed.
+[0m14:58:13.158790 [info ] [MainThread]: 
+[0m14:58:13.159942 [info ] [MainThread]: Finished running 3 table models, 7 data tests, 2 unit tests, 2 view models in 0 hours 0 minutes and 2.60 seconds (2.60s).
+[0m14:58:13.165733 [debug] [MainThread]: Command end result
+[0m14:58:13.258637 [debug] [MainThread]: Wrote artifact WritableManifest to D:\Projects\Dataops_lab1\target\manifest.json
+[0m14:58:13.266520 [debug] [MainThread]: Wrote artifact SemanticManifest to D:\Projects\Dataops_lab1\target\semantic_manifest.json
+[0m14:58:13.276116 [debug] [MainThread]: Wrote artifact OsiDocument to D:\Projects\Dataops_lab1\target\osi_document.json
+[0m14:58:13.292615 [debug] [MainThread]: Wrote artifact RunExecutionResult to D:\Projects\Dataops_lab1\target\run_results.json
+[0m14:58:13.293372 [info ] [MainThread]: 
+[0m14:58:13.294560 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m14:58:13.295478 [info ] [MainThread]: 
+[0m14:58:13.296432 [info ] [MainThread]: Done. PASS=14 WARN=0 ERROR=0 SKIP=0 NO-OP=0 REUSED=0 TOTAL=14
+[0m14:58:13.298426 [debug] [MainThread]: Command `dbt build` succeeded at 14:58:13.298218 after 10.15 seconds
+[0m14:58:13.299114 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028F5D753D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028F625F29F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028F626976B0>]}
+[0m14:58:13.299806 [debug] [MainThread]: Flushing usage events
+[0m14:58:15.919927 [debug] [MainThread]: An error was encountered while trying to flush usage events
